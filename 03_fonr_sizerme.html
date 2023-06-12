@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{transition:all 0.5s;}
+        html{font-size: 20px;}
+        body{ font-size: 1rem;}
+        section{font-size:  2.5rem;
+        padding: 1rem 1.5rem .5rem;
+        border: 1px solid red;
+    }
+    div{
+        font-size: 2rem;
+        @media screen and (max_width:800px){
+            html{
+                font-size:15px;
+            }
+        }
+    }
+    </style>
+</head>
+<body>
+    <section>
+        <div>font Test 30px----40px</div>
+    </section>
+</body>
+</html>
